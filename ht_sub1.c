@@ -5,7 +5,8 @@
  *    *
  *     *@head: stack head
  *      *Return: no return
- *       */
+ */
+
 void f_sub(stack_t **head, unsigned int counter)
 {
 	stack_t *aux;
