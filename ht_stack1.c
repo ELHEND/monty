@@ -1,10 +1,10 @@
 #include "monty.h"
 /**
- *  * f_stack - prints the top
+ *  * f_stack - Shows the highest-ranked
  *   * @head: stack head
  *    * @counter: line_number
  *     * Return: no return
- *     */
+ */
 void f_stack(stack_t **head, unsigned int counter)
 {
 	(void)head;
