@@ -1,12 +1,16 @@
 #include "monty.h"
+
 /**
- *  * f_pint - prints the top
+ *  * f_pint - Shows the highest-ranked
  *   * @head: stack head
  *    * @counter: line_number
  *     * Return: no return
- *     */
+ */
+
 void f_pint(stack_t **head, unsigned int counter)
+
 {
+
 		if (*head == NULL)
 				{
 							fprintf(stderr, "L%u: can't pint, stack empty\n", counter);
