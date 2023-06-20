@@ -6,6 +6,7 @@
  *         *Return: no return
  */
 void f_rotr(stack_t **head, __attribute__((unused)) unsigned int counter)
+
 {
 	stack_t *copy;
 
@@ -13,6 +14,7 @@ void f_rotr(stack_t **head, __attribute__((unused)) unsigned int counter)
 	if (*head == NULL || (*head)->next == NULL)
 	{
 		return;
+
 	}
 	while (copy->next)
 	{
