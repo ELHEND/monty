@@ -1,4 +1,7 @@
+#define _GNU_SOURCE
+
 #include "monty.h"
+
 /**
  *  * main - monty code interpreter
  *   * @argc: number of arguments
@@ -8,7 +11,6 @@
  */
 int main(int argc, char *argv[])
 {
-	bus_t bus = {NULL, NULL, NULL, 0};
 	FILE *file;
 	char *line = NULL;
 	size_t line_size = 0;
@@ -29,11 +31,9 @@ int main(int argc, char *argv[])
 		return (EXIT_FAILURE);
 	}
 
-	bus.file = file;
 	while ((read_line = getline(&line, &line_size, file)) != -1)
 	{
 		line_no++;
-		bus.content = line;
 		execute(line, &stack, line_no, file);
 	}
 
