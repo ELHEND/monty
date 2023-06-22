@@ -12,6 +12,7 @@ void f_pchar(stack_t **head, unsigned int counter)
 {
 
 	stack_t *H;
+
 	H = *head;
 	if (!H)
 	{
