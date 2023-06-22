@@ -26,4 +26,3 @@ void addnode(stack_t **head, int n)
 	*head = new_node;
 
 }
-~
