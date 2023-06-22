@@ -9,7 +9,7 @@
 #include <ctype.h>
 /**
  *  * struct stack_s - I'm looking for a sentence that has the
- *  *same meaning as 'doubly linked list representation of 
+ *  *same meaning as 'doubly linked list representation of
  *  *a stack (or queue)', but in English.
  *   * @n: integer
  *    * @prev: points to the previous element of the stack (or queue)
